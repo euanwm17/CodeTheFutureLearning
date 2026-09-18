@@ -40,13 +40,36 @@ img {
 }
 
 .card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.5);
     max-width: 300px;
     margin: auto;
     text-align: center;
     background-color: white;
     padding: 20px;
     border-radius: 25px;
+    margin-bottom: 20px;
+}
+
+.card2 {
+    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.5);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 25px;
+    margin-bottom: 30px;
+}
+
+.card3 {
+    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.5);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    background-image: linear-gradient(to top, rgb(0, 255, 38), rgb(242, 255, 0));
+    padding: 20px;
+    border-radius: 25px;
+    margin-bottom: 30px;
 }
 
 .title {
@@ -57,11 +80,10 @@ img {
 table {
     font-family: Arial, sans-serif;
     border-collapse: collapse;
-    width: 50%;   
-    margin: 20px auto; 
+    width: 50%;
+    margin: 20px auto;
     background-color: rgb(127, 174, 255);
 }
-
 
 td,
 th {
@@ -76,6 +98,34 @@ tr:nth-child(even) {
 
 section {
     text-align: left;
-    background-color: green;
+    border-radius: 25px;
+    background-image: linear-gradient(to top, rgb(0, 234, 255), rgb(170, 0, 255));
     color: white;
+    padding: 20px;
+    margin: 20px;
+}
+
+h3 {
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+a {
+    font-size: 25px;
+    font-weight: 25px;
+}
+
+.logo {
+    border-radius: 0;
+}
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+    padding: 10px;
+}
+
+.header h1 {
+    margin: 0;
 }
