@@ -8,3 +8,9 @@ branch test
 hello world
 
 pull test
+############
+branch test
+x2
+
+
+pulled
