@@ -13,4 +13,4 @@ branch test
 x2
 
 
-pull
+pulled
