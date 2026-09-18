@@ -3,3 +3,28 @@
   justify-content: center;
   align-items: center;
 }
+
+body {
+  background-color: powderblue;
+}
+
+* {
+  text-align: center;
+}
+
+p {
+  border: 2px solid white;
+  border-radius: 5px;
+  background-color: white;
+}
+
+h1 {
+  font-family: "COPPERPLATE";
+  text-decoration: underline;
+  text-decoration-style: dashed;
+  text-shadow: 2px 2px white;
+}
+
+img {
+  border-radius: 50%;
+}
